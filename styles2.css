@@ -1,0 +1,214 @@
+
+svg{
+    color: white;
+}
+svg:hover{
+    cursor: pointer;
+}
+
+.side-bar{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    position: fixed;
+    left: 0px;
+    height: 96vh;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.3px solid rgba(211, 211, 211, 0.403);
+}
+.function-icon{
+    justify-content: center;
+    align-items: center;
+}
+.insta-icon, .function-icon div, .other-icon div{
+    padding: 10px;
+}
+.insta-icon:hover, .function-icon div:hover, .other-icon div:hover{
+    background-color: #f5f5f560;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+}
+.foot-bar{
+    position: sticky;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+}
+.foot-function-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.function-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.other-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+.full-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    color: #f5f5f5;
+    background-color: black;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px;
+    border-bottom: 0.5px solid rgba(211, 211, 211, 0.532);
+}
+.logo{
+    display: flex;
+}
+.logo:hover{
+    background-color: rgba(211, 211, 211, 0.222);
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+input{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-align: left;
+    width: 240px;
+    height: 33px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding-left: 15px;
+}
+.story{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 10px;
+    gap:30px;
+}
+.story-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 62px;
+    gap: 15px;
+    cursor: pointer;
+}
+.story-container div{
+    font-size: 14px;
+    color: #f5f5f5;
+}
+.story-image{
+    width: 56px;
+    height: 56px;
+}
+.story-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: 3px solid transparent;
+    background-image: linear-gradient(#fff, #fff), 
+    linear-gradient(to right, red 0%,  orange 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card{
+    max-width: 630px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 468px;
+    padding: 20px 0px;
+    gap: 10px;
+    border-bottom: 0.5px solid rgba(211, 211, 211, 0.403);
+}
+.card-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    color: #f5f5f5;
+}
+.card-profile-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+}
+.card-profile-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+.card-profile-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.time{
+    font-size: 12px;
+}
+.flex-1{
+    flex: 1;
+}
+.middle-item{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.like, .img-story, .comments{
+    font-size: 14px;
+}
+.instagram-id{
+    font-weight: bold;
+}
+.img-story{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #a8a8a8;
+}
+
+
+
